@@ -20,6 +20,7 @@ public class OrderPlace extends Base {
 		p.getPlaceOrderButton().click();
 		Thread.sleep(3000);
 		System.out.println(fl.getExcelData("Details", 0, 0));
+		System.out.println("Hiii");
 	//	p.getCustName().sendKeys(fl.getExcelData("Details", 0, 0));
 //		String name = fl.getExcelData("Details", 0, 0);
 //		System.out.println(name);
