@@ -23,7 +23,7 @@ import com.objectrepo.demoblaze.HomePage;
 
 public class Base {
 
-//	public WebDriver driver;
+	//public WebDriver driver;
 	public static WebDriver driver;
 	public FileLib fl=new FileLib();
 	public CommonUtils cu=new CommonUtils();

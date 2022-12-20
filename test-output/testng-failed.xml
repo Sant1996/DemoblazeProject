@@ -9,9 +9,18 @@
           <include name="afterSuit"/>
           <include name="loginApp"/>
           <include name="beforeSuite"/>
-          <include name="contactDemoblazeTest"/>
+          <include name="contactDemoblazeTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- ContactsDemoblaze -->
+      <class name="AddToCart">
+        <methods>
+          <include name="logutApp"/>
+          <include name="addCart"/>
+          <include name="afterSuit"/>
+          <include name="loginApp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- AddToCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

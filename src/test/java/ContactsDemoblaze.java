@@ -10,7 +10,7 @@ import com.genericUtils.demoblaze.EventList;
 import com.objectrepo.demoblaze.HomePage;
 
 
-@Listeners(EventList.class)
+//@Listeners(EventList.class)
 public class ContactsDemoblaze extends Base {
 	
 	@Test(dataProvider = "contactTest")
@@ -31,5 +31,6 @@ public class ContactsDemoblaze extends Base {
 		 cu.acceptAlert(driver);
 		// Assert.assertTrue(false);
 		 test.pass("Handled the alert ");
+	//	 Assert.fail();
 	}
 }

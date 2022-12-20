@@ -11,7 +11,7 @@ import com.genericUtils.demoblaze.EventList;
 import com.objectrepo.demoblaze.HomePage;
 
 
-@Listeners(EventList.class)
+//@Listeners(EventList.class)
 public class AddToCart extends Base
 {
 	@Test
@@ -29,6 +29,7 @@ public class AddToCart extends Base
 		cu.waitTillAlertToBeDisplay(driver);
 		cu.acceptAlert(driver);
 		hp.getCartButton().click();
+	//	Assert.fail();
 		Assert.assertTrue(cu.verifyProductInCart(pn, driver).isDisplayed());
 	//	Assert.assertTrue(false);
 	}

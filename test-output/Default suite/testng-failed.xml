@@ -9,7 +9,7 @@
           <include name="afterSuit"/>
           <include name="loginApp"/>
           <include name="beforeSuite"/>
-          <include name="contactDemoblazeTest"/>
+          <include name="contactDemoblazeTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- ContactsDemoblaze -->
     </classes>
