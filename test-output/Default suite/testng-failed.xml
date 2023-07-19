@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ContactsDemoblaze">
+      <class name="SignUpOption">
         <methods>
           <include name="logutApp"/>
           <include name="afterSuit"/>
           <include name="loginApp"/>
           <include name="beforeSuite"/>
-          <include name="contactDemoblazeTest" invocation-numbers="0 1"/>
+          <include name="signUpOptionTest"/>
         </methods>
-      </class> <!-- ContactsDemoblaze -->
+      </class> <!-- SignUpOption -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

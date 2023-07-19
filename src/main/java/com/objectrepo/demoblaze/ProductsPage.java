@@ -53,7 +53,4 @@ public class ProductsPage {
 	public WebElement getPurchaseButton() {
 		return purchaseButton;
 	}
-	
-	
-
 }

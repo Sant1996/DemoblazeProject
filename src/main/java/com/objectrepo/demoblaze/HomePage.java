@@ -52,6 +52,15 @@ public class HomePage {
 	@FindBy(xpath = "//button[text()='Send message']")
 	private WebElement sendMsgButton;
 	
+	@FindBy(id = "signin2")
+	private WebElement signUpButton;
+	
+	
+	
+	public WebElement getSignUpButton() {
+		return signUpButton;
+	}
+
 	public WebElement getSendMsgButton() {
 		return sendMsgButton;
 	}
