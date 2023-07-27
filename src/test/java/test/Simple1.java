@@ -11,7 +11,8 @@ public class Simple1 {
 		WebDriver driver1=new ChromeDriver();
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com/");
-		System.out.println("Code changed");
+		System.out.println("Chrmedriver launched");
+		System.out.println("Google website open");
 		
 	}
 
